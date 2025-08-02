@@ -66,7 +66,7 @@ public class BukkitListenerSystem extends ListenerSystem {
         listeners.registerListener(gamemodeChangeListener);
         listeners.registerListener(worldChangeListener);
         listeners.registerListener(deathEventListener);
-        listeners.registerListener(afkListener);
+     //   listeners.registerListener(afkListener);
         status.setCountKicks(true);
     }
 
